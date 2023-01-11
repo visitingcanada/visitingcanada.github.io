@@ -1,0 +1,46 @@
+title: Visiting Canada
+description: >-
+  We have detailed information about how you can apply for visa to Canada. We provide consultation on application process to permanent residency and job applications in Canada. We also intend to soon provide details regarding obtaining Canadian citizenship.
+url: "https://visitingcanada.github.io"
+baseurl: "/"
+twitter_username: visitingcanada
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+minimal_mistakes_skin: "aqua"
+breadcrumbs: true
+search: false
+
+paginate: 10
+paginate_path: /page:num/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+atom_feed:
+  hide: true
+
+# Google Analytics
+google_analytics: UA-253584798-1
+
+exclude:
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
